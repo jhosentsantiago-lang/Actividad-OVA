@@ -3,32 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Hoja de Vida - Santiago</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #2c3e50, #3498db);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .perfil-foto {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 4px solid #3498db;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #2c3e50;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 5px;
+        }
+
+        h3 {
+            color: #3498db;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin: 8px 0;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills span {
+            background: #3498db;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="perfil">
-            <!-- Aquí irá la foto en otra rama -->
-            <h1>Nombre Apellido</h1>
-            <h2>Profesión / Estudiante</h2>
-        </div>
-    </header>
+    <div class="container">
+        <header>
+               <img src="Foto/img1.jpg" alt="Foto de perfil" class="perfil-foto">
+  <h1>Nombre Apellido</h1>
+  <h2>Profesión / Estudiante</h2>
+ 
+        </header>
 
-    <main>
-        <section>
-            <h3>Información Personal</h3>
-            <ul>
-                <li><strong>Correo:</strong> correo@ejemplo.com</li>
-                <li><strong>Teléfono:</strong> 000 000 0000</li>
-                <li><strong>Ciudad:</strong> Ciudad</li>
-            </ul>
-        </section>
-    </main>
+        <main>
+             <section>
+    <h3>📌 Información Personal</h3>
+    <ul>
+      <li><strong>Correo:</strong> santiago@email.com</li>
+      <li><strong>Teléfono:</strong> 300 000 0000</li>
+      <li><strong>Ciudad:</strong> Pasto, Nariño</li>
+    </ul>
+  </section>
 
-    <footer>
-        <p>© 2025 - Hoja de Vida</p>
-    </footer>
+  <section>
+    <h3>👨‍🎓 Perfil</h3>
+    <p>
+      Soy estudiante de la Universidad de Nariño, apasionado por la informática, la educación y la tecnología.
+      Me esfuerzo cada día por mejorar académicamente y alcanzar mis metas personales y profesionales.
+    </p>
+  </section>
+                <h3>👨‍🎓 Perfil</h3>
+                <p>
+                    Soy estudiante de la Universidad de Nariño, apasionado por la informática, la educación y la tecnología. 
+                    Me esfuerzo cada día por mejorar académicamente y alcanzar mis metas personales y profesionales.
+                </p>
+            </section>
+
+            <section>
+                <h3>💻 Habilidades</h3>
+                <div class="skills">
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>HTML & CSS</span>
+                    <span>Git & GitHub</span>
+                    <span>Trabajo en equipo</span>
+                </div>
+            </section>
+
+            <section>
+                <h3>📖 Formación Académica</h3>
+                <ul>
+                    <li><strong>Licenciatura en Informática</strong> – Universidad de Nariño</li>
+                    <li><strong>Bachiller Académico</strong> – Colegio Mi Colegio</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 - Santiago Pérez</p>
+        </footer>
+    </div>
 </body>
-</html>
 </html>
